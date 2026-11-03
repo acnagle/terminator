@@ -1,0 +1,20 @@
+# Data, checkpoints and logs
+data/
+models/
+partitions/
+wandb/
+*.log
+
+# Hugging Face and vLLM caches (the scripts default HF_HOME to the repo root)
+.locks/
+assets/
+datasets/
+hub/
+models--*/
+modules/
+stored_tokens
+token
+xet/
+
+# Python
+__pycache__/
